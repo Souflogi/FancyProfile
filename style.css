@@ -37,11 +37,11 @@ body {
 
 .card {
     display: grid;
-    grid-template-columns: 30fr 70fr;
+    grid-template-columns: 40fr 60fr;
     gap: 1rem;
     align-items: end;
     justify-items: center;
-    max-width: 50rem;
+    max-width: 60rem;
     overflow: hidden;
     padding: 2rem;
 }
@@ -59,7 +59,7 @@ body {
 
 .card:hover .person-pic {
     transform: scale(1.07);
-    bottom: -10%;
+    bottom: 0;
 }
 
 .person__container {
@@ -69,8 +69,7 @@ body {
     align-items: end;
     justify-items: center;
     overflow: hidden;
-    border-radius: 0 0 100vw 200vw;
-
+    border-radius: 0 0 100vw 100vw;
 }
 
 .img {
@@ -85,7 +84,7 @@ body {
     grid-row: 1/-1;
     z-index: -13;
     position: relative;
-    bottom: -15%;
+    bottom: -8%;
     transition: all .25s ease;
 }
 
@@ -94,10 +93,9 @@ body {
     grid-row: 1/-1;
     aspect-ratio: 1/1;
     border-radius: 100vw 100vw 0 0;
-    bottom: -30%;
     z-index: -14;
     position: relative;
-    bottom: -20%;
+    bottom: -15%;
 }
 
 /*  */
